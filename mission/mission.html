@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>MISSION</title>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <link rel="stylesheet" href="style1.css">
+
+ <!-- animated.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<!-- animated.css -->
+
+
+
+
+</head>
+
+<body>
+
+
+<!-- ---------------intro--------------- -->
+
+<div class="back"> 
+<div class="mission">
+
+  <div class="overlay">
+    <h1>MISSION</h1>
+    <span>Nasa</span>
+  </div>
+
+  <div class="wrapper">
+
+    <div class="nav">
+      <div class="logo">
+        <h1>
+          <span><br>NASA</span>
+          <br>
+          SPACE
+        </h1>
+      </div>
+
+      <div class="menu-links">
+        <ul>
+          <a href="../index.html"style="text-decoration: none;z-index: 1000;"><li>home.</li></a><br>
+          <a href="../about/about.html"style="text-decoration: none"><li>About</li></a><br>
+           <a href="../mission/mission.html"style="text-decoration: none"><li>Mission</li></a><br>
+          <a href="../space_tech/space_tech.html"style="text-decoration: none"><li>Spach Tech</li></a><br>
+          <a href="../demo/gallary.html"style="text-decoration: none"><li>Gallary</li></a><br>
+          <a href="../membar/membar.html"style="text-decoration: none"><li>Member</li></a>
+        </ul>
+      </div>
+
+     
+    </div>
+
+    <div class="text">
+      <div class="title">NASA</div>
+      <p>Mauris elementum, dui ac sagittis <br> cursus, libero elit sodales odio</p>
+    </div>
+
+    <div class="watchnow">
+     
+      <a href="../contact/contact.html" >Contact</a>
+    </div>
+
+    <div class="media">
+      <ul>
+        <a href="https://www.facebook.com/NASA/"><li><i class="fa fa-facebook"></i></li></a>
+        <a href="https://twitter.com/NASA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><li><i class="fa fa-twitter"></i></li></a>
+        <a href="https://www.instagram.com/nasa/?hl=en"><li><i class="fa fa-instagram"></i></li></a>
+      </ul>
+    </div>
+
+    <div class="ellipse-container">
+      <div class="ellipse thin"></div>
+      <div class="ellipse thick"></div>
+      <div class="ellipse yellow"></div>
+      <div class="circle1"><span>Maecenas purus at</span></div>
+      <div class="circle2"><span>Fringilla Maecenas</span></div>
+    </div>
+
+  </div>
+
+
+
+  <script>
+
+    TweenMax.to(".overlay h1", 2, {
+      opacity: 0,
+      y: -60,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.to(".overlay span", 2, {
+      delay: .3,
+      opacity: 0,
+      y: -60,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.to(".overlay", 2, {
+      delay: 1,
+      top: "-100%",
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".ellipse-container", 1, {
+      delay: 2,
+      opacity: 0,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".yellow", 1, {
+      delay: 3.5,
+      opacity: 0,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".circle1", 1, {
+      delay: 2.4,
+      opacity: 0,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".circle2", 1, {
+      delay: 2.6,
+      opacity: 0,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".logo", 1, {
+      delay: 3,
+      opacity: 0,
+      y: -100,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.staggerFrom(".menu-links ul li", 1, {
+      delay: 3.2,
+      opacity: 0,
+      x: -100,
+      ease: Expo.easeInOut
+    }, 0.08)
+
+    TweenMax.from(".scrolldown", 1, {
+      delay: 3.4,
+      opacity: 0,
+      y: 100,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".text .title", 1, {
+      delay: 3,
+      opacity: 0,
+      x: 200,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".text p", 1, {
+      delay: 3.2,
+      opacity: 0,
+      x: 200,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".watchnow", 1, {
+      delay: 3.4,
+      opacity: 0,
+      x: 200,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.staggerFrom(".media ul li", 1, {
+      delay: 3,
+      opacity: 0,
+      y: 100,
+      ease: Expo.easeInOut
+    }, 0.08)
+
+  </script>
+
+
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+ <div class="blur"></div>
+
+
+<!-- -----------------------------------3d-box------------------ -->
+
+<section class=" "style="background:#00001a;height:700px;width: 100%">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="mi10">
+
+<div class="box1">
+  <h3>MISSION (NASA)</h3>
+  <p class="wow jello delay-o.5s">
+    <br/> On May 7, the Obama Administration announced the launch of an independent review of planned U.S. human space flight activities with the goal of ensuring that the nation is on a vigorous and sustainable path to achieving its boldest aspirations in space. The review was conducted by a panel of experts led by Norman Augustine, the former CEO of Lockheed Martin, who served on the President's Council of Advisers on Science and Technology under both Democrat and Republican presidents.
+</p>
+</div>
+</div>
+
+
+
+</section>
+
+<!-- //////////////////////////////3d-box////////////////////// -->
+
+
+
+
+<!-- ---------------------slider------------------------- -->
+
+
+
+
+<section class="slidepic">
+    <div class="slideshow">
+ 
+      <ul class="navigation">
+ 
+        <li class="navigation-item active">
+          <span class="rotate-holder"></span>
+          <span class="background-holder" style="background-image: url(assets/img/img-1.jpeg);"></span>
+        </li>
+        <!-- slideshow:navigation:item END -->
+
+        <!-- slideshow:navigation:item START -->
+        <li class="navigation-item">
+          <span class="rotate-holder"></span>
+          <span class="background-holder" style="background-image: url(assets/img/statue.jpg);"></span>
+        </li>
+       
+        <li class="navigation-item">
+          <span class="rotate-holder"></span>
+          <span class="background-holder" style="background-image: url(assets/img/img-3.jpg);"></span>
+        </li>
+       
+        <li class="navigation-item">
+          <span class="rotate-holder"></span>
+          <span class="background-holder" style="background-image: url(assets/img/img-4.jpeg);"></span>
+        </li>
+      
+        <li class="navigation-item">
+          <span class="rotate-holder"></span>
+          <span class="background-holder" style="background-image: url(assets/img/img-5.jpg);"></span>
+        </li>
+      
+        <li class="navigation-item">
+          <span class="rotate-holder"></span>
+          <span class="background-holder" style="background-image: url(assets/img/img-6.jpg);"></span>
+        </li>
+        
+        <li class="navigation-item">
+          <span class="rotate-holder"></span>
+          <span class="background-holder" style="background-image: url(assets/img/hong.jpg);"></span>
+        </li>
+         
+        <li class="navigation-item">
+          <span class="rotate-holder"></span>
+          <span class="background-holder" style="background-image: url(assets/img/img-8.jpeg);"></span>
+        </li>
+         
+        <li class="navigation-item">
+          <span class="rotate-holder"></span>
+          <span class="background-holder" style="background-image: url(assets/img/img-9.jpg);"></span>
+        </li>
+       
+
+      </ul>
+      
+      <div class="detail">
+       
+        <div class="detail-item active">
+          <div class="headline">SATALITE</div>
+          <div class="background" style="background-image: url(assets/img/img-1.jpeg); height: 100vh;"></div>
+          <div class="background" style="background-image: url(assets/img/img-1.jpeg); height: 100vh; background-size: cover; background-position: center;"></div>
+        </div>
+        <!-- slideshow:details END -->
+        
+
+        
+        <!-- slideshow:details START -->
+        <div class="detail-item">
+          <div class="headline">SWARMS</div>
+          <div class="background" style="background-image: url(assets/img/statue.jpg);"></div>
+        </div>
+        <!-- slideshow:details END -->
+        
+        <!-- slideshow:details START -->
+        <div class="detail-item">
+          <div class="headline">APOLLO</div>
+          <div class="background" style="background-image: url(assets/img/img-3.jpg);"></div>
+        </div>
+        <!-- slideshow:details END -->
+        
+        <!-- slideshow:details START -->
+        <div class="detail-item">
+          <div class="headline">SKYLAB</div>
+          <div class="background" style="background-image: url(assets/img/img-4.jpeg);"></div>
+        </div>
+        <!-- slideshow:details END -->
+        
+        <!-- slideshow:details START -->
+        <div class="detail-item">
+          <div class="headline">Helping-s</div>
+          <div class="background" style="background-image: url(assets/img/img-5.jpg);"></div>
+        </div>
+        <!-- slideshow:details END -->
+        
+        <!-- slideshow:details START -->
+        <div class="detail-item">
+          <div class="headline">Exolaunch</div>
+          <div class="background" style="background-image: url(assets/img/img-6.jpg);"></div> 
+        </div>
+        <!-- slideshow:details END -->
+        
+        <!-- slideshow:details START -->
+        <div class="detail-item">
+          <div class="headline">S-Junk</div>
+          <div class="background" style="background-image: url(assets/img/hong.jpg);"></div>
+        </div>
+        <!-- slideshow:details END -->
+        
+        <!-- slideshow:details START -->
+        <div class="detail-item">
+          <div class="headline">TESS</div>
+          <div class="background" style="background-image: url(assets/img/img-8.jpeg);"></div>
+        </div>
+        <!-- slideshow:details END -->
+        
+        <!-- slideshow:details START -->
+        <div class="detail-item">
+          <div class="headline">S.Hundreds</div>
+          <div class="background" style="background-image: url(assets/img/img-9.jpg);"></div>
+        </div>
+        <!-- slideshow:details END -->
+        
+      </div>
+      <!-- slideshow:details END -->
+     </div>
+    
+    <!-- slideshow END -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/TextPlugin.min.js"></script>
+    <script src="assets/js/demo.js"></script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+</section>
+
+
+<!-- ///////////////////////slider//////////////// -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------mission-div-1------------- -->
+
+<div class="mi">
+
+
+ <section class="s2">
+  
+<div class="s21 wow flipInX">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">Pioneer</h1>
+ <br>
+<p  class="wow flipInX" style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">Pioneer 10 and Pioneer 11, launched in 1972 and 1973, respectively, were the first spacecraft to visit the solar system's most photogenic gas giants, Jupiter and Saturn. Pioneer 10 was the first probe to travel through the solar system's asteroid belt, a field of orbiting rocks between Mars and Jupiter. Then about a year-and-a-half after its launch, the spacecraft made the first flyby of the planet Jupiter. It took stunning up-close photos of the Great Red Spot and the wide swaths of red that band the planet. About a year later, Pioneer 11 flew by Jupiter, and then moved on to Saturn, where it discovered a couple of previously unknown small moons around the planet, and a new ring. Both probes have stopped sending data, and are continuing out on their one-way voyages beyond the solar system.</p>
+
+</div>
+
+<div class="s22 sa wow flipInX delay-0.1s">
+
+</div>
+
+</section>
+
+<br>
+<br>
+
+
+
+
+
+
+ <section class="s2">
+  
+<div class="s21">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">Voyager</h1>
+ <br>
+<p class="wow flipInX" style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">Shortly after the Pioneers made their flybys, the Voyager 1 and Voyager 2 probes followed. They made many important discoveries about Jupiter and Saturn, including rings around Jupiter and the presence of volcanism on Jupiter's moon, Io. Voyager went on to make the first flybys of Uranus, where it discovered 10 new moons, and Neptune, where it found that Neptune actually weighs less than astronomers thought. Both Voyager crafts have enough power to keep transmitting radio signals until at least 2025, and are now exploring the very edge of the solar system and beginning of interstellar space. Voyager 2 is currently the farthest man-made object from Earth, at more than a hundred times the distance from the Earth to the sun, and more than twice as far as Pluto.</p>
+
+</div>
+
+<div class="s22 sb wow flipInX">
+
+</div>
+</section>
+
+
+<br>
+<br>
+
+ <section class="s2">
+  
+<div class="s21">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">WMAP</h1>
+ <br>
+<p class="wow flipInX" style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">The Wilkinson Microwave Anisotropy Probe (WMAP), launched in 2001, may not be as well-known, but it measures with unprecedented accuracy the temperature of the radiation left over from the Big Bang. By mapping out the fluctuations in the so-called cosmic microwave background radiation, the spacecraft has heralded a leap forward in cosmological theories about the nature and origin of the universe. Among other revelations, the data from WMAP revealed a much more precise estimate for the age of the universe ? 13.7 billion years ? and confirmed that about 95 percent of it is composed of poorly understood things called dark matter and dark energy.</p>
+
+
+
+
+</div>
+
+<div class="s22 sc wow flipInX">
+
+</div>
+</section>
+
+
+
+<br>
+<br>
+
+
+ <section class="s2">
+  
+<div class="s21">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">Spitzer</h1>
+ <br>
+<p class="wow flipInX" style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">Another spacecraft with a profound effect on cosmology and astrophysics is the Spitzer Space Telescope, which observed the heavens through infrared light. This light, which has a longer wavelength than visual light, is mostly blocked by Earth's atmosphere. In addition to taking gorgeous photos of galaxies, nebulae and stars, the telescope has made numerous groundbreaking scientific discoveries. In 2005 Spitzer became the first telescope to detect light from extrasolar planets (most of these distant worlds are detected only through secondary, gravitational effects on their suns). In another observation, astronomers think the telescope may have even captured light from some of the first stars born in the universe.</p>
+
+
+
+
+</div>
+
+<div class="s22 sd wow flipInX">
+  
+</div>
+</section>
+
+<br>
+<br>
+
+
+
+ <section class="s2">
+  
+<div class="s21">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">Spirit & Opportunity</h1>
+ <br>
+<p class="wow flipInX" style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">Intended for just a 90-day mission, these workhorse Mars rovers have far outdone themselves, and are still chugging away on the red planet more than five years after landing. Spirit and Opportunity, the twin Mars Exploration Rovers, landed on opposite sides of the planet in January 2004. Since then, they have been traveling all over the surface, poking into craters and roving over unexplored hills. Among their major finds is evidence that the surface of Mars once had liquid water. (A tip of the hat to Sojourner rover, which brought full-color close-ups of Mars in 1997, just as the Internet was becoming wildly popular, thereby earning a special place in the hearts of millions who enjoyed unprecedented access to NASA mission photos.)</p>
+
+</div>
+
+<div class="s22 se wow flipInX">
+  
+</div>
+
+</section>
+
+<br>
+<br>
+
+
+</div>
+
+<!-- ////////////////////mission-div-1///////////////////// -->
+
+
+
+
+
+<!-- -----------------slider-2------------ -->
+
+
+
+
+<section style="background:#00001a ">
+
+  <div class="ay">
+<div class="container">
+  <div class="slide">
+    <div class="active"><img src=" img/img1.jpg"></div>
+    <div><img src="img/img2.jpg"></div>
+    <div><img src="img/img3.jpg"></div>
+    <div><img src="img/img4.jpg"></div>
+  </div>
+  <div class="control">
+    <h2 class="next">Next</h2>
+    <h2 class="prev">Prev</h2>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.next').click(function(){
+      $('.slide').find('div.active').next().addClass('active');
+      $('.slide').find('div.active').prev().removeClass('active');
+    })
+    $('.prev').click(function(){
+      $('.slide').find('div.active').prev().addClass('active');
+      $('.slide').find('div.active').next().removeClass('active');
+    })
+  })
+</script>
+</div>
+</section>
+
+
+<!-- /////////////////////////slider-2 ///////////////////-->
+
+
+
+
+
+
+
+<!-- ------------------------mission-div-2--------------- -->
+
+<div class="mi">
+<br>
+<br>
+
+ <section class="s2">
+  
+<div class="s21">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">Cassini-Huygens</h1>
+ <br>
+<p class=" wow rollIn  "style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">This joint NASA/ESA spacecraft, launched in 1997, reached its destination, Saturn, in 2004. Since then it has been in orbit around the ringed world, taking one stunning snapshot after another of the planets rings, moons and weather. The Hugyens probe separated from Cassini and made a special trip to the moon Titan, where it descended through the atmosphere and landed on solid ground in 2005. Though previous spacecraft have visited Saturn, Cassini is the first to orbit it and study the system in detail.</p>
+
+</div>
+
+<div class=" s22 sf wow flipInX">
+
+</div>
+
+</section>
+
+<br>
+<br>
+ <section class="s2">
+  
+<div class="s21">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">Apollo</h1>
+ <br>
+<p class=" wow rollIn  " style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">NASA's best space science mission? The one humans got to tag along on, of course! Not only was sending a man to the moon monumental for human history, but the Apollo trips were the first to bring celestial stuff back to Earth and greatly advanced our scientific understanding of the moon. Before Apollo, many people weren't even convinced the moon wasn't made out of cheese (well? non-scientists at least). By studying the moon up close and personal, and then carting? loads of moon rocks home, the Apollo astronauts gathered data that helped us learn how old the moon is, what it's made out of, and even how it might have begun.</p>
+
+</div>
+
+<div class=" s22 sg wow flipInX">
+
+</div>
+</section>
+
+
+<br>
+<br>
+
+ <section class="s2">
+  
+<div class="s21">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">Viking</h1>
+ <br>
+<p  class=" wow rollIn  " style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">When NASA's Viking 1 probe touched-down on Mars in July 1976, it was the first time a man-made object had soft-landed on the red planet. (Though the Soviet Mars 2 and 3 probes did land on the surface, they failed upon landing). The Viking 1 lander also holds the title of longest-running Mars surface mission, with a total duration of 6 years and 116 days. The spacecraft also sent the first color pictures back from the Martian surface, showing us what that mysterious red dot looks like from the ground for the first time.</p>
+
+
+
+
+</div>
+
+<div class=" s22 sh wow flipInX">
+
+</div>
+</section>
+
+
+
+<br>
+<br>
+
+
+ <section class="s2">
+  
+<div class="s21">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">MARS MISSION</h1>
+ <br>
+<p class=" wow rollIn  " style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">Pioneer 10 and Pioneer 11, launched in 1972 and 1973, respectively, were the first spacecraft to visit the solar system's most photogenic gas giants, Jupiter and Saturn. Pioneer 10 was the first probe to travel through the solar system's asteroid belt, a field of orbiting rocks between Mars and Jupiter. Then about a year-and-a-half after its launch, the spacecraft made the first flyby of the planet Jupiter. It took stunning up-close photos of the Great Red Spot and the wide swaths of red that band the planet. About a year later, Pioneer 11 flew by Jupiter, and then moved on to Saturn, where it discovered a couple of previously unknown small moons around the planet, and a new ring. Both probes have stopped sending data, and are continuing out on their one-way voyages beyond the solar system.</p>
+
+
+
+
+</div>
+
+<div class=" s22 si  wow flipInX">
+  
+</div>
+</section>
+
+<br>
+<br>
+
+
+
+ <section class="s2">
+  
+<div class="s21">
+  <br>
+  <h1 style="font-size:34px;margin-left:10px  ;padding-left:10px;color:white; ">Hubble</h1>
+ <br>
+<p class=" wow rollIn  " style="margin-left: 20px;margin-right:10px;font-size:18.3px;color: white   ">The most-loved of all NASA spacecraft, the Hubble Space Telescope has name recognition around the world. Its photos have changed the way everyday people figure themselves into the cosmos. The observatory has also radically changed science, making breakthroughs on astronomical issues too numerous to count. By finally sending up an optical telescope to peer at the sky from beyond Earth's turbulent atmosphere, NASA developed a tool that could reveal stars, planets, nebulae and galaxies in all their fully-detailed glory.</p>
+
+</div>
+
+<div class="s22 sj wow flipInX">
+  
+</div>
+
+</section>
+
+<br>
+<br>
+
+
+</div>
+<!-- /////////////////////////////////////mission-div-2//////////////////// -->
+
+
+
+
+
+
+<!-- ------------------------------ultano-card----------------- -->
+
+
+<section id="sas2" style="overflow-x: hidden;background:#00001a;">
+
+ <div class="scene">
+         <div class="back stage">
+            
+             <a href="#sas2" class="character">
+                 <img src="img/1.jpg" alt="">
+             </a>
+             
+              <a href="#sas2" class="character">
+                 <img src="img/2.png" alt="">
+             </a>
+             
+             <a href="#sas2" class="character">
+                 <img src="img/3.png" alt="">
+             </a>
+             
+              
+             <a href="#sas2" class="character">
+                 <img src="img/4.png" alt="">
+             </a>
+             
+              <a href="#sas2" class="character">
+                 <img src="img/5.png" alt="">
+             </a>
+             
+              <a href="#sas2" class="character">
+                 <img src="img/7.jpg" alt="">
+             </a>
+             
+             
+             
+         </div>
+     </div>
+     
+      <script src="main.js"></script>
+
+</section>
+
+<!-- ////////////////////////////ultano-card//////////////// -->
+
+
+
+
+
+
+
+
+<!-- -------------------------auto---------------------- -->
+<section style="background:#00001a;">
+<br><br><br><br>
+    <div class="container9" id="container9">
+    <ul>
+      <li class="active"><img src="img/now.jpg" alt="" /></li>
+      <li><img src="img/photo_4.jpg" alt="" /></li>
+      <li><img src="img/no.jpg" alt="" /></li>
+      <li><img src="img/yes.jpg" alt="" /></li>
+    </ul>
+</div>
+
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>    
+    
+    $(document).ready(function(){
+  var width = 960;
+  height = 538;
+  var numberOfBlinds = 24;
+  var margin = 2;
+  var color = '#00001a';
+  gapHeight = 100;
+
+  var container = $('#container9');
+
+  container.width(width).height(height);
+  var blindWidth = width / numberOfBlinds;
+
+  images = new Array();
+  $('ul li', container).each(function() {
+    images.push($(this)); 
+  });
+
+  images[0].addClass('active');
+  activeImage = 0;
+
+  for (var i = 0; i < numberOfBlinds; i++) {
+    var tempEl = $(document.createElement('span'));
+    var borders = calculateBorders();
+
+    tempEl.css({
+      'left': i * blindWidth,
+      border: margin + 'px solid ' + color,
+      borderTop: borders.borderWidthTop + 'px solid ' + color,
+      borderBottom: borders.borderWidthBottom + 'px solid ' + color,
+      'height': height,
+      'width': blindWidth
+    });
+        
+    container.prepend(tempEl);
+  };
+
+  blinds = $('span', container);
+  setTimeout(animateBorders, 1000);
+});
+
+function calculateBorders() {
+  var random = Math.floor((Math.random()*9)+1);
+  var borderWidthTop = (random / 10) * gapHeight;
+  var borderWidthBottom = gapHeight - borderWidthTop;
+
+  return {borderWidthTop: borderWidthTop, borderWidthBottom: borderWidthBottom};
+}
+
+function animateBorders() {
+  var changeOccuredOnce = false;
+
+  blinds.animate({
+    borderTopWidth: height / 2,
+    borderBottomWidth: height / 2
+  }, 1000, function() {
+    if(!changeOccuredOnce) {
+      images[activeImage].removeClass('active');
+      activeImage = (activeImage + 1) % images.length;
+      images[activeImage].addClass('active');
+      setTimeout(animateBorders, 3000);
+      changeOccuredOnce = true;
+    }
+
+    var borders = calculateBorders();
+
+    $(this).delay(300).animate({
+      borderTopWidth: borders.borderWidthTop,
+      borderBottomWidth: borders.borderWidthBottom
+    }, 1000);
+  });
+}
+    
+    
+    </script>
+    </section>
+
+<!-- ////////////////////////////////auto/////////////////// -->
+
+
+
+
+
+</body>
+
+
+<!------------WOW.JS LINK------------------>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+ <script>
+              new WOW().init();
+              </script> 
+<!-- /////////WOW.JS LINK/////////////// -->
+
+</html>

@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>gallary</title>
+
+    <meta name="description" content="Video background">
+    <meta name="keywords" content="video background responsive jQuery plugin youtube">
+
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style67.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+
+
+
+
+
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+   
+
+     
+   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+   
+
+    
+    <script src="js/gallery.js"></script>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="manu.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- animated.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<!-- animated.css -->
+   
+  </head>
+
+
+</head>
+
+<body style="background:#00001a;">
+
+
+
+
+<!-- ---------------navbar--------------------- -->
+
+
+<!-- navber -->
+
+<header style="height:100px; ">
+    
+        <header>
+      <div class="inner-width">
+        <a href="#" class="logo"><img src="logo.png" alt=""></a>
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <nav class="navigation-menu">
+          <a href="../index.html"><i class="fas fa-home home"></i> Home</a>
+          <a href="../about/about.html"><i class="fas fa-align-left about"></i> About</a>
+          <a href="../mission/misssion.html"><i class="fab fa-buffer works"></i> Mission</a>
+          <a href="../space_tech/space_tech.html"><i class="fas fa-users team"></i>Space Tech</a>
+          <a href="#"><i class="fas fa-headset contact"></i>Gallary</a>
+          <a href="../membar/membar.html"><i class="fas fa-headset contact"></i>Member</a>
+            <a href="../Contact/Contact.html"><i class="fas fa-headset contact"></i> Contact</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <script type="text/javascript">
+      $(".menu-toggle-btn").click(function(){
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+      });
+    </script>
+</header>
+
+
+<!-- navber -->
+
+<!-- -//////////////navbar////////////////////// -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -----------------videoporsan---------------- -->
+
+<section style="background:#00001a;"
+class="section-intro youtube-video-background">
+
+
+
+
+         
+<video src="https://www.nasa.gov/specials/artemis/video/web-page-anim-07.mp4" autoplay muted style="height:100%; width:100%;">
+ </video>
+              
+</section>
+
+
+
+<section class="section-features">
+
+    <div class="container">
+
+        <ul class="features-list">
+
+            <li class="feature-item ">
+                <div class="content-col wow slideInLeft">
+                    <div class="title">
+                        NASA Systems Engineering Handbook
+                    </div>
+                    <div class="desc">
+                        <p class="wow fadeIn delay-0.6s ">
+                       This handbook is intended to provide general guidance and information on systems engineering that will be useful to the NASA community. It provides a generic description of Systems Engineering (SE) as it should be applied throughout NASA. A goal of the handbook is to increase awareness and consistency across the Agency and advance the practice of SE. This handbook provides perspectives relevant to NASA and data particular to NASA.
+                        </p>
+                      
+                    </div>
+                </div>
+                <div class="img-col">
+                     <div class="img-wrap html-video-background wow slideInRight">
+                        <video src="video/SampleVideo_color.mp4" autoplay muted>
+                        </video>
+                    </div>
+                </div>
+            </li>
+
+            <li class="feature-item">
+                <div class="content-col wow slideInRight ">
+                    <div class="title">
+                        NASA Spacecraft Fault Management Workshop
+                    </div>
+                    <div class="desc">
+                        <p class="wow fadeIn delay-0.6s  ">
+                          The 2012 NASA Spacecraft Fault Management Workshop brings together NASA’s Fault Management (FM) community — including project managers, systems and software engineers, researchers, technologists, and FM practitioners — to actively, and collaboratively, address near-term challenges and long-term vision for the FM discipline.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="img-col">
+                     <div class="img-wrap html-video-background wow slideInLeft">
+                        <video src="video/sample2.mp4" autoplay muted>
+                        </video>
+                    </div>
+                </div>
+            </li>
+
+            <li class="feature-item">
+                <div class="content-col wow slideInLeft">
+                    <div class="title">
+                       Technical Excellence Initiative
+                    </div>
+                    <div class="desc">
+                        <p class="wow fadeIn delay-0.6s">
+                       In July 2007, the NASA Office of the Chief Engineer chartered the NASA Instrument Capability Study (NICS) team to determine whether NASA instrument developers are facing challenges that impact the capability to design and build quality instruments or whether there are flaws in the acquisition strategy evidenced by schedule delays, cost overruns, and increased technical risk via design deficiencies.
+                        </p>
+                      
+                    </div>
+                </div>
+                <div class="img-col">
+                    <div class="img-wrap html-video-background wow slideInRight">
+                        <video src="video/SampleVideo_color.mp4" autoplay muted>
+                        </video>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+</section>
+
+
+<script src="js/jquery-3.2.0.min.js"></script>
+
+<script src="../build/videoBackground.js"></script>
+
+<script>
+
+    //loop fix
+    document.getElementsByTagName('video')[0].onended = function () {
+        this.load();
+        this.play();
+    };
+
+
+    //init videoBackground for html video
+    $('.html-video-background').videoBackground();
+
+
+
+    //init youtube
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var ytPlayers = [];
+
+    onYouTubePlayerAPIReady = function () {
+
+        var players = document.querySelectorAll('.youtube-video');
+
+
+        for (var i = 0; i < players.length; i++) {
+            var player = new YT.Player(players[i], {
+                playerVars: {
+                    'autoplay': 1,
+                    'loop': 1,
+                    'rel': 0,
+                    'showinfo': 0,
+                    'controls': 0,
+                    'modestbranding': 1,
+                    'playlist': players[i].getAttribute("data-yt-id")
+
+                },
+                videoId: players[i].getAttribute("data-yt-id"),
+                events: {
+                    'onReady': onPlayerReady
+                }
+
+            });
+
+            ytPlayers.push(player);
+        }
+    };
+
+    function onPlayerReady(event) {
+
+        event.target.mute();
+
+
+        //init videoBackground for youtube video
+        $('.youtube-video-background').videoBackground();
+
+    }
+
+
+</script>
+
+<!-- ////////////////video-porsan///////////////// -->
+
+
+
+
+
+
+<!-- ------------------card ------------------------->
+
+
+<section class="card3">
+
+<div class="container3">
+            <div class="box3">
+                <img src="img1.jpg">
+            </div>
+            <div class="box3">
+                <img src="img2.jpg">
+            </div>
+            <div class="box3">
+                <img src="img3.jpg">
+            </div>
+            <div class="box3">
+                <img src="img4.jpg">
+            </div>
+        </div>
+
+
+
+</section>
+
+
+<!-- //////////////////card//////////////////// -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- --------------------slide------------------- -->
+
+<section class="slide">
+
+     <div class="swiper-container main-slider loading">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s1.jpg)">        
+      </figure>
+      <div class="content">      
+        <span class="caption"></span>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s2.jpg);">       
+      </figure>
+     
+    </div>
+    
+    
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s3.jpg)">
+        <img src="auto.webp" class="entity-img" />
+      </figure>      
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s4.jpg)">        
+      </figure>
+      
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s5.jpg)">        
+      </figure>
+       
+    </div>
+  </div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev swiper-button-white"></div>
+  <div class="swiper-button-next swiper-button-white"></div>
+</div>
+
+<!-- Thumbnail navigation -->
+<div class="swiper-container nav-slider loading">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s1.jpg)">
+        <img src="" class="entity-img" />
+      </figure>
+       
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s2.jpg)">
+        
+      </figure>
+     
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s3.jpg)">
+         
+      </figure>
+     
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s4.jpg)">
+         
+      </figure>
+       
+    </div>
+    
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(s5.jpg)">    
+      </figure>
+       
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+<script src="customswiper.js">
+     
+</script>
+</section>
+
+
+<!-- //////////////////////////////slide////////////////////////// -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -------------------------3d-card---------------------------- -->
+
+
+
+<section style="height: 800px;background:">
+    
+</section>
+
+<!-- 3d-card -->
+<div class="cardt20">
+     <div class="wrapper">   
+  <div class="cols">
+            <div class="col">
+                <div class="container">
+                    <div class="front" style="background-image: url(img1/1.jpg)">
+                         
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="front" style="background-image: url(img1/2.jpg);">
+                     </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="front" style="background-image: url(img1/5.jpg);">
+                         
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="front" style="background-image: url(img1/4.jpg)">
+                         
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="front" style="background-image: url(img1/3.jpg)">
+                         
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="front" style="background-image: url(img1/004.jpg)">
+                          
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="front" style="background-image: url(img1/a5.jpg)">
+                     
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="front" style="background-image: url(img1/6.jpg)">
+                         
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </div>
+<br>
+<br>
+<br>
+
+<br>
+
+
+
+</div>
+
+
+<!-- ////////////////////////////////////3d-card/////////////// -->
+
+
+
+<!-- ----------------------full-screen-video--------------- -->
+<div class="lv"> 
+    <br>
+<br>
+<br>
+<br>
+<div class="laptop">
+      <img src="res/laptop.png" alt="">
+      <video src="res/video.mp4" controls></video>
+    </div>
+</div>
+<!-- ----------------------full-screen-video--------------- -->
+
+
+
+
+</body>
+
+<!------------WOW.JS LINK------------------>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+ <script>
+              new WOW().init();
+              </script> 
+<!-- /////////WOW.JS LINK/////////////// -->
+
+</html>

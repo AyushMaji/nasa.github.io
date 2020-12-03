@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>NASA</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+</head>
+<body>
+      <div class="wrapper">
+       
+       <!-- --------------------------------------internal-contant----------------------- -->
+
+        <div class="outer-content">
+
+              <!-- ---------------logo----------- -->
+                 
+             <div id="wrappe">
+                <div class="boxs-area">
+                 <div id="boxs-front"class="boxs"></div>
+                 <div id="boxs-right"class="boxs"></div>
+                 <div id="boxs-back"class="boxs"></div>
+                 <div id="boxs-left"class="boxs"></div>
+                 <div id="boxs-top"class="boxs"></div>
+                 <div id="boxs-bottom"class="boxs"></div>
+                  </div>
+               </div>
+
+              <!-- /////////////////logo///////////// -->
+
+
+              <!-- -----------------text------------- -->
+
+                <div class="title">
+                <h1><span class="black">National Aeronautics and </span> <span class="outlined">Space Administration</span></h1>
+               </div>
+
+             <!-- //////////////////text/////////////// -->
+
+
+
+             <!-- ------------------disc---------------- -->
+
+            <div class="desc">
+                <p class="sub-title">NASA stands for National Aeronautics and Space Administration. NASA is a U.S. government agency that is responsible for science and technology related to air and space. The Space Age started in 1957 with the launch of the Soviet satellite Sputnik.</p>
+                <div class="bottom-nav" id="bottom-nav">
+                    <h4>EXPLORE NASA</h4>
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+           <!-- ///////////////////////disc////////////// -->
+     
+
+         </div>
+
+
+           <!-- ////////////////////////////////////////internal-contant///////////////////////////// -->
+
+
+
+
+
+
+            <div class="menu-strip">
+                  <div class="toggle-btn">
+                        <ion-icon name="menu"></ion-icon>
+                  </div>
+            </div>
+
+            <div class="menu">
+
+                  <div class="images">
+                        <span class="bg bg1 hide"></span>
+                        <span class="bg bg2 hide"></span>
+                        <span class="bg bg3 hide"></span>
+                        <span class="bg bg4 hide"></span>
+                        <span class="bg bg5 hide"></span>
+                        <span class="bg bg6 hide"></span>
+                        <span class="bg bg7 hide"></span>
+
+                   </div>
+
+                  <div class="nav">
+                        <div class="menu">
+                        <ul>
+                              <li class="menu-item-1">
+                                    <span id="order">01. </span>
+                                   <a href="#" style="text-decoration: none"><span id="menu">&nbsp;Home</span></a>
+                                    
+                              </li>
+                              <li class="menu-item-2">
+                                    <span id="order">02. </span>
+                                    <a href="about/about.html" style="text-decoration: none"><span id="menu">&nbsp;About</span></a>
+                                  
+                              </li>
+                              <li class="menu-item-3">
+                                    <span id="order">03. </span>
+                                    <a href="mission/mission.html" style="text-decoration: none"><span id="menu">&nbsp;Mission</span></a>
+                                    
+                                    
+                              </li>
+                              <li class="menu-item-4">
+                                    <span id="order">04. </span>
+                                    <a href="space_tech/space_tech.html" style="text-decoration: none"><span id="menu">&nbsp;Space Teach</span></a>
+                                   
+                                    
+                              </li>
+                              <li class="menu-item-5">
+                                    <span id="order">05. </span>
+                                    <a href="demo/gallary.html" style="text-decoration: none"><span id="menu">&nbsp;Gallary</span></a>
+                                  
+                                    
+                              </li>
+
+                               <li class="menu-item-6">
+                                    <span id="order">06. </span>
+                                    <a href="membar/membar.html" style="text-decoration: none"><span id="menu">&nbsp;Member</span></a>
+                                   
+                                    
+                              </li>
+
+                                  <li class="menu-item-7">
+                                    <span id="order">07. </span>
+                                    <a href="contact/contact.html" style="text-decoration: none"><span id="menu">&nbsp;Contact</span></a>
+                                   
+                                    
+                              </li>
+
+                        </ul>
+                        </ul>
+                        </div>
+                        <div class="media">
+                        <ul>
+                          <a href="https://www.facebook.com/NASA/"style="text-decoration: none"><li><ion-icon name="logo-facebook"></ion-icon></li></a></a>
+                           <a href="https://www.instagram.com/nasa/?hl=en"><li><ion-icon name="logo-instagram"></ion-icon></li></a>
+                          <a href="https://twitter.com/NASA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><li><ion-icon name="logo-twitter"></ion-icon></li></a>
+                          <a href="https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ"><li><ion-icon name="logo-youtube"></ion-icon></li></a>
+                        </ul>
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+
+      <script type="text/javascript">
+
+      jQuery(function() {
+            $(".menu-item-1").hover(function() {
+                  $(".bg1").fadeIn(800);
+            }, function() {
+                  $(".bg1").fadeOut(800);
+            })
+            $(".menu-item-2").hover(function() {
+                  $(".bg2").fadeIn(800);
+            }, function() {
+                  $(".bg2").fadeOut(800);
+            })
+            $(".menu-item-3").hover(function() {
+                  $(".bg3").fadeIn(800);
+            }, function() {
+                  $(".bg3").fadeOut(800);
+            })
+            $(".menu-item-4").hover(function() {
+                  $(".bg4").fadeIn(800);
+            }, function() {
+                  $(".bg4").fadeOut(800);
+            })
+
+            $(".menu-item-5").hover(function() {
+                  $(".bg5").fadeIn(800);
+            }, function() {
+                  $(".bg5").fadeOut(800);
+            })
+
+
+            $(".menu-item-6").hover(function() {
+                  $(".bg6").fadeIn(800);
+            }, function() {
+                  $(".bg6").fadeOut(800);
+            })
+
+            $(".menu-item-7").hover(function() {
+                  $(".bg7").fadeIn(800);
+            }, function() {
+                  $(".bg7").fadeOut(800);
+            })
+
+      })
+
+      var t1 = new TimelineMax({paused: true});
+
+      t1.to(".outer-content .title", 1, {
+            opacity: 0
+      });
+
+      t1.to(".menu", 2, {
+            width: "32%",
+            ease: Expo.easeInOut
+      }, "-=1");
+
+      t1.staggerFrom(".menu ul li", 2, {y: 20 , opacity: 0, ease: Expo.easeInOut}, 0.1);
+
+      t1.to(".images", 2, {
+            width: "61%",
+            ease: Expo.easeInOut,
+            delay: -2,
+      },"-=1");
+
+      t1.reverse();
+      $(document).on("click", ".toggle-btn", function() {
+            t1.reversed(!t1.reversed());
+      });
+      $(document).on("click", "#menu", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      </script>
+</body>
+</html>
